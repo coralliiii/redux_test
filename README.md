@@ -77,7 +77,7 @@
 			(4).交给store的是总reducer，最后注意在组件中取出状态的时候，记得“取到位”。
 
 ## 7.求和案例_react-redux开发者工具的使用
-			(1).yarn add redux-devtools-extension
+			(1).npm install --save-dev redux-devtools-extension
 			(2).store中进行配置
 					import {composeWithDevTools} from 'redux-devtools-extension'
 					const store = createStore(allReducer,composeWithDevTools(applyMiddleware(thunk)))
@@ -85,3 +85,8 @@
 ## 8.求和案例_react-redux最终版
 			(1).所有变量名字要规范，尽量触发对象的简写形式。
 			(2).reducers文件夹中，编写index.js专门用于汇总并暴露所有的reducer
+
+
+<!-- 33+18+14+23+7+26+20+18+21+04 = 184
+6+26+44+25+31+6+4+14+10+6 = 172
+6+12+12+9+4+12+3+2+1+1+6 = 68 -->
